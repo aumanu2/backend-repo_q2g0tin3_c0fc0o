@@ -1,7 +1,21 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [121] using StatReload
-INFO:     Started server process [123]
+INFO:     Started reloader process [306] using StatReload
+INFO:     Started server process [308]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:42442 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:37064 - "GET /config/indicators HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37072 - "GET /config/default-script HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37082 - "GET /market/candles/NIFTY?timeframe=1m&limit=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37064 - "GET /config/indicators HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37072 - "GET /market/candles/NIFTY?timeframe=1m&limit=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37082 - "GET /config/default-script HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33304 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:37092 - "GET /config/indicators HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37092 - "GET /config/default-script HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50798 - "GET /market/candles/NIFTY?timeframe=1m&limit=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50814 - "GET /config/indicators HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37092 - "GET /config/default-script HTTP/1.1" 200 OK
+INFO:     172.20.0.1:50824 - "GET /market/candles/NIFTY?timeframe=1m&limit=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:57904 - "GET /market/candles/BANKNIFTY?timeframe=1m&limit=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:57912 - "GET /market/candles/SENSEX?timeframe=1m&limit=300 HTTP/1.1" 200 OK
